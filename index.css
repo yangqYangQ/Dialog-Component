@@ -1,0 +1,91 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.my-dialog {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(140, 140, 140, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-dialog > .dialog-wrapper {
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: left;
+    position: relative;
+}
+
+.my-dialog > .dialog-wrapper > .close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px;
+}
+
+.my-dialog > .dialog-wrapper > .close-button:hover {
+    cursor: pointer;
+}
+
+.my-dialog > .dialog-wrapper > .close-button svg.icon {
+    width: 20px;
+    height: 20px;
+    color: #999;
+}
+
+.my-dialog > .dialog-wrapper > header {
+    border-bottom: 1px solid #eee;
+    padding: 16px 24px;
+}
+
+.my-dialog > .dialog-wrapper > main {
+    padding: 24px;
+    border-bottom: 1px solid #eee;
+}
+
+.my-dialog > .dialog-wrapper > footer {
+    padding: 10px 16px;
+    text-align: right;
+}
+
+.my-dialog > .dialog-wrapper > footer > button {
+    margin-left: 10px;
+}
+
+/*******************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #1890ff;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgba(24, 144, 255, .8);
+    cursor: pointer;
+}
